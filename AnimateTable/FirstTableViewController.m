@@ -81,11 +81,13 @@
     CGFloat itemCount = [[self data] count] - 1; // 果然是这个算法问题，导致颜色出不来，把itemCount的类型写成NSInteger
     CGFloat color = (index / itemCount) * 0.6;
     
-    return [UIColor colorWithRed:1.0 green:color blue:0.0 alpha:1.0];
+    return [UIColor colorWithRed:color green:0.0 blue:1.0 alpha:1.0];
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [self performSegueWithIdentifier:@"ShowAnimateTableViewController" sender:nil];
 }
+
+
 
 @end

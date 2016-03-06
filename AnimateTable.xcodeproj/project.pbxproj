@@ -69,14 +69,8 @@
 			children = (
 				FD6001231C8C8D1500B762F3 /* AppDelegate.h */,
 				FD6001241C8C8D1500B762F3 /* AppDelegate.m */,
-				FD6001371C8C923100B762F3 /* FirstTableViewController.h */,
-				FD6001381C8C923100B762F3 /* FirstTableViewController.m */,
-				FD60013D1C8C92CF00B762F3 /* FirstTableViewCell.h */,
-				FD60013E1C8C92CF00B762F3 /* FirstTableViewCell.m */,
-				FD60013A1C8C92BD00B762F3 /* AnimateTableViewController.h */,
-				FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */,
-				FD6001401C8C92F900B762F3 /* SecondTableViewCell.h */,
-				FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */,
+				FD6001431C8C9AE300B762F3 /* FirstTableView */,
+				FD6001441C8C9AF400B762F3 /* SecondTableView */,
 				FD6001291C8C8D1500B762F3 /* Main.storyboard */,
 				FD60012C1C8C8D1500B762F3 /* Assets.xcassets */,
 				FD60012E1C8C8D1500B762F3 /* LaunchScreen.storyboard */,
@@ -92,6 +86,28 @@
 				FD6001211C8C8D1500B762F3 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FD6001431C8C9AE300B762F3 /* FirstTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FD6001371C8C923100B762F3 /* FirstTableViewController.h */,
+				FD6001381C8C923100B762F3 /* FirstTableViewController.m */,
+				FD60013D1C8C92CF00B762F3 /* FirstTableViewCell.h */,
+				FD60013E1C8C92CF00B762F3 /* FirstTableViewCell.m */,
+			);
+			name = FirstTableView;
+			sourceTree = "<group>";
+		};
+		FD6001441C8C9AF400B762F3 /* SecondTableView */ = {
+			isa = PBXGroup;
+			children = (
+				FD60013A1C8C92BD00B762F3 /* AnimateTableViewController.h */,
+				FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */,
+				FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */,
+				FD6001401C8C92F900B762F3 /* SecondTableViewCell.h */,
+			);
+			name = SecondTableView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

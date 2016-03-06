@@ -33,7 +33,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="317" y="443"/>
+            <point key="canvasLocation" x="240" y="443"/>
         </scene>
         <!--Animate Table View Controller-->
         <scene sceneID="c79-TA-fim">
@@ -51,6 +51,9 @@
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" identifier="ShowFirstTableViewController" id="a2x-2j-nFv"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
