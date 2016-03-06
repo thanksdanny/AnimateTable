@@ -31,10 +31,37 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)viewWillAppear:(BOOL)animated {
+    [self animateTable];
+}
+
 - (BOOL)prefersStatusBarHidden {
     return YES;
 }
 
+#pragma mark - animated
+- (void)animateTable {
+    [self.tableView reloadData];
+    
+    NSArray *cells = self.tableView.visibleCells;
+    CGFloat tableHeight = self.tableView.bounds.size.height;
+    
+    for (UITableViewCell *i in cells) {
+        UITableViewCell *cell = i;
+        cell.transform = CGAffineTransformMakeTranslation(0, tableHeight);
+    }
+    
+    int index = 0;
+    
+    for (UITableViewCell *a in cells) {
+        UITableViewCell *cell = a;
+        [UIView animateWithDuration:1.5 delay:0.05 * (double)index usingSpringWithDamping:0.8 initialSpringVelocity:0 options:UIViewAnimationOptionCurveLinear animations:^{
+            cell.transform = CGAffineTransformMakeTranslation(0, 0);
+        } completion:nil];
+        
+        index += 1;
+    }
+}
 #pragma mark - data
 
 - (NSArray *)data {

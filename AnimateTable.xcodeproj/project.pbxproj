@@ -104,8 +104,8 @@
 			children = (
 				FD60013A1C8C92BD00B762F3 /* AnimateTableViewController.h */,
 				FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */,
-				FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */,
 				FD6001401C8C92F900B762F3 /* SecondTableViewCell.h */,
+				FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */,
 			);
 			name = SecondTableView;
 			sourceTree = "<group>";
