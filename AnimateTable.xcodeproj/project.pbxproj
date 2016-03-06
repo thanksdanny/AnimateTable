@@ -9,10 +9,13 @@
 /* Begin PBXBuildFile section */
 		FD6001221C8C8D1500B762F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6001211C8C8D1500B762F3 /* main.m */; };
 		FD6001251C8C8D1500B762F3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6001241C8C8D1500B762F3 /* AppDelegate.m */; };
-		FD6001281C8C8D1500B762F3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6001271C8C8D1500B762F3 /* ViewController.m */; };
 		FD60012B1C8C8D1500B762F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6001291C8C8D1500B762F3 /* Main.storyboard */; };
 		FD60012D1C8C8D1500B762F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD60012C1C8C8D1500B762F3 /* Assets.xcassets */; };
 		FD6001301C8C8D1500B762F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD60012E1C8C8D1500B762F3 /* LaunchScreen.storyboard */; };
+		FD6001391C8C923100B762F3 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6001381C8C923100B762F3 /* FirstTableViewController.m */; };
+		FD60013C1C8C92BD00B762F3 /* AnimateTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */; };
+		FD60013F1C8C92CF00B762F3 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD60013E1C8C92CF00B762F3 /* FirstTableViewCell.m */; };
+		FD6001421C8C92F900B762F3 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +23,18 @@
 		FD6001211C8C8D1500B762F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FD6001231C8C8D1500B762F3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FD6001241C8C8D1500B762F3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD6001261C8C8D1500B762F3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD6001271C8C8D1500B762F3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FD60012A1C8C8D1500B762F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD60012C1C8C8D1500B762F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD60012F1C8C8D1500B762F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD6001311C8C8D1500B762F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6001371C8C923100B762F3 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
+		FD6001381C8C923100B762F3 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
+		FD60013A1C8C92BD00B762F3 /* AnimateTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnimateTableViewController.h; sourceTree = "<group>"; };
+		FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnimateTableViewController.m; sourceTree = "<group>"; };
+		FD60013D1C8C92CF00B762F3 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewCell.h; sourceTree = "<group>"; };
+		FD60013E1C8C92CF00B762F3 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewCell.m; sourceTree = "<group>"; };
+		FD6001401C8C92F900B762F3 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewCell.h; sourceTree = "<group>"; };
+		FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +69,14 @@
 			children = (
 				FD6001231C8C8D1500B762F3 /* AppDelegate.h */,
 				FD6001241C8C8D1500B762F3 /* AppDelegate.m */,
-				FD6001261C8C8D1500B762F3 /* ViewController.h */,
-				FD6001271C8C8D1500B762F3 /* ViewController.m */,
+				FD6001371C8C923100B762F3 /* FirstTableViewController.h */,
+				FD6001381C8C923100B762F3 /* FirstTableViewController.m */,
+				FD60013D1C8C92CF00B762F3 /* FirstTableViewCell.h */,
+				FD60013E1C8C92CF00B762F3 /* FirstTableViewCell.m */,
+				FD60013A1C8C92BD00B762F3 /* AnimateTableViewController.h */,
+				FD60013B1C8C92BD00B762F3 /* AnimateTableViewController.m */,
+				FD6001401C8C92F900B762F3 /* SecondTableViewCell.h */,
+				FD6001411C8C92F900B762F3 /* SecondTableViewCell.m */,
 				FD6001291C8C8D1500B762F3 /* Main.storyboard */,
 				FD60012C1C8C8D1500B762F3 /* Assets.xcassets */,
 				FD60012E1C8C8D1500B762F3 /* LaunchScreen.storyboard */,
@@ -149,9 +164,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD6001281C8C8D1500B762F3 /* ViewController.m in Sources */,
 				FD6001251C8C8D1500B762F3 /* AppDelegate.m in Sources */,
+				FD60013C1C8C92BD00B762F3 /* AnimateTableViewController.m in Sources */,
+				FD60013F1C8C92CF00B762F3 /* FirstTableViewCell.m in Sources */,
+				FD6001421C8C92F900B762F3 /* SecondTableViewCell.m in Sources */,
 				FD6001221C8C8D1500B762F3 /* main.m in Sources */,
+				FD6001391C8C923100B762F3 /* FirstTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

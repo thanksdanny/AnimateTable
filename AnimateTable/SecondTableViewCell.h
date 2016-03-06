@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondTableViewCell.h
 //  AnimateTable
 //
 //  Created by Danny Ho on 3/7/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SecondTableViewCell : UITableViewCell
 
 @end
-
