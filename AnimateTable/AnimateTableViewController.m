@@ -89,5 +89,8 @@
     return [UIColor colorWithRed:1.0 green:color blue:0.0 alpha:1.0];
 }
 
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    [self performSegueWithIdentifier:@"ShowFirstTableViewController" sender:nil];
+}
 
 @end
